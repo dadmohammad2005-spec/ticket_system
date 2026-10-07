@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+backend/venv/
+env/
+.env
+*.env
+
+# Local Tools
+tools/
+
+# Build artifacts
+dist/
+frontend/dist/
+build/
+*.egg-info/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases & local storage
+*.sqlite3
+db.sqlite3
+media/
+backend/media/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
