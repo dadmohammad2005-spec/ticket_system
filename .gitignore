@@ -13,8 +13,11 @@ tools/
 # Build artifacts
 dist/
 frontend/dist/
+staticfiles/
+backend/staticfiles/
 build/
 *.egg-info/
+*.tsbuildinfo
 
 # Python cache & artifacts
 __pycache__/
